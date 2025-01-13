@@ -1,0 +1,11 @@
+# Ignore the configuration file
+config.py
+
+# Ignore environment files
+.env
+
+# Ignore temporary files
+*.tmp
+
+# Ignore the 'sources' folder
+sources/

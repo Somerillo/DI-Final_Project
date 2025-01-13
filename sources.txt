@@ -1,0 +1,42 @@
+hourly energy consumption
+https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption/data
+https://www.eia.gov/electricity/wholesalemarkets/data.php?rto=pjm (also contains weather from 2020 and on)
+
+population
+https://www.macrotrends.net/global-metrics/states/pennsylvania/population
+https://www.macrotrends.net/global-metrics/states/illinois/population
+
+flu contagions:
+https://gis.cdc.gov/grasp/fluview/main.html
+
+weather:
+https://www.kaggle.com/datasets/selfishgene/historical-hourly-weather-data/data?select=city_attributes.csv
+
+airline delay:
+https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis
+
+arrest data in pittsburg:
+https://www.kaggle.com/datasets/isabelapetit/dirty-data-arrest
+
+
+
+
+    Chicago (Illinois)
+    Detroit (Michigan)
+    Charlotte (North Carolina)
+    Pittsburgh (Pennsylvania)
+    Philadelphia (Pennsylvania)
+
+
+City	State/District	Energy Provider(s)	Exclusive (1/0)
+Chicago	Illinois	AEP Energy, CleanChoice Energy, Clearview Energy, Green Mountain Energy	0
+Charlotte	North Carolina	Duke Energy Carolinas	1
+Detroit	Michigan	DTE Energy	1
+Philadelphia	Pennsylvania	PECO Energy	1
+Pittsburgh	Pennsylvania	Duquesne Light Company	1
+New York	New York	Con Edison	1
+Nashville	Tennessee	Nashville Electric Service	1
+Indianapolis	Indiana	Indianapolis Power & Light	1
+Atlanta	Georgia	Georgia Power	1
+
+chicago ill (no sirve, toma de otros), detroit mich, pittsburg penns
