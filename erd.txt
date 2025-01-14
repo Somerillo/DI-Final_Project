@@ -1,0 +1,28 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+// https://dbdiagram.io/d
+
+Table weather_raw {
+  datetime timestamp
+  city_temperature float
+}
+
+Table weather_grouped {
+  year integer
+  week integer
+  avg_temperature float [note: 'Average temperature for the week']
+  min_temperature float [note: 'Minimum temperature for the week']
+  max_temperature float [note: 'Maximum temperature for the week']
+}
+
+Table flu_activity {
+  statename varchar
+  activity_level_label varchar
+  weekend boolean
+  week integer
+  season varchar
+}
+
+Ref: weather_raw.datetime > weather_grouped.year [note: 'Grouped by year and week']
+Ref: weather_grouped.week > flu_activity.week [note: 'Linked by week']
+
