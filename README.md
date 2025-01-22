@@ -1,4 +1,4 @@
-# **"Time Series Analysis of Pittsburgh Temperature, Energy Consumption, and Flu Contagion (2013–2015)"**
+# **"Time Series Analysis of Pittsburgh Temperature, Energy Consumption, and Flu Contagion"**
 
 ---
 
@@ -8,6 +8,7 @@ To identify and explore temporal patterns, correlations, and potential causal re
 ---
 ### **Key Files:**
    - dashboard_lpm.twbx
+   - Time Series Analysis.pptx
    - sources.txt
    - timeseries_EDa.ipynb
    - ARIMA_predictions.ipynb
